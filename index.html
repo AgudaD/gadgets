@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <title>FE Mentor</title>
+  </head>
+  <body class="min-h-screen text-white bg-slate-700">
+    <div class="bg-[url('https://images.unsplash.com/photo-1615655406736-b37c4fabf923?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover py-3 px-5">
+      <nav class="flex justify-between items-center">
+        <img src="https://png.pngtree.com/png-vector/20220630/ourmid/pngtree-rasterize-logo-template-bold-brand-png-image_5584123.png" alt="" class="w-12">
+        <ul class="hidden md:flex items-center justify-center gap-12">
+          <li>Home</li>
+          <li>Pricing</li>
+          <li>Products</li>
+        </ul>
+        <div class="space-y-1 md:hidden">
+          <div class="w-5 h-0.5 bg-white rounded-sm"></div>
+          <div class="w-3 h-0.5 bg-white rounded-sm"></div>
+          <div class="w-4 h-0.5 bg-white rounded-sm"></div>
+        </div>
+      </nav>
+      <section class="mt-12 space-y-5">
+        <h2 class="font-bold text-xl">Unleash the Best of Shopping, Right at Your Fingertips</h2>
+        <p class="font-medium">
+          Explore a curated selection of high-quality products, all designed to elevate your everyday life. From the latest gadgets to unique finds, we've got something for everyone. Shop with confidence, enjoy unbeatable prices, and experience hassle-free delivery. Your next favorite item is just a click away!
+        </p>
+        <h2 class="font-bold bg-black rounded-full px-6 py-2 w-fit">Start Shopping Now</h2>
+      </section>
+    </div>
+
+    <div class="mt-8 py-3 px-5">
+      <h2 class="text-lg font-semibold">Products</h2>
+
+      <!-- product list -->
+      <div class="grid grid-cols-1 gap-5 place-items-center mt-5 md:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-white rounded-md text-black space-y-6 w-fit">
+          <img src="https://images.unsplash.com/photo-1581508473167-1c80505e5e8b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-[20rem] object-contain rounded-t-md">
+          <div class="px-4 pb-5 space-y-2">
+            <p class="text-lg font-semibold">Samsung Galaxy S20 Ultra</p>
+            <p class="text-base font-medium">$1200</p>
+            <button class="bg-slate-600 rounded-md font-medium px-4 py-2">Buy now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-md text-black space-y-6 w-fit">
+          <img src="https://images.unsplash.com/photo-1581508473167-1c80505e5e8b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-[20rem] object-contain rounded-t-md">
+          <div class="px-4 pb-5 space-y-2">
+            <p class="text-lg font-semibold">Samsung Galaxy S20 Ultra</p>
+            <p class="text-base font-medium">$1200</p>
+            <button class="bg-slate-600 rounded-md font-medium px-4 py-2">Buy now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-md text-black space-y-6 w-fit">
+          <img src="https://images.unsplash.com/photo-1581508473167-1c80505e5e8b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-[20rem] object-contain rounded-t-md">
+          <div class="px-4 pb-5 space-y-2">
+            <p class="text-lg font-semibold">Samsung Galaxy S20 Ultra</p>
+            <p class="text-base font-medium">$1200</p>
+            <button class="bg-slate-600 rounded-md font-medium px-4 py-2">Buy now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-md text-black space-y-6 w-fit">
+          <img src="https://images.unsplash.com/photo-1581508473167-1c80505e5e8b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-[20rem] object-contain rounded-t-md">
+          <div class="px-4 pb-5 space-y-2">
+            <p class="text-lg font-semibold">Samsung Galaxy S20 Ultra</p>
+            <p class="text-base font-medium">$1200</p>
+            <button class="bg-slate-600 rounded-md font-medium px-4 py-2">Buy now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-md text-black space-y-6 w-fit">
+          <img src="https://images.unsplash.com/photo-1581508473167-1c80505e5e8b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-[20rem] object-contain rounded-t-md">
+          <div class="px-4 pb-5 space-y-2">
+            <p class="text-lg font-semibold">Samsung Galaxy S20 Ultra</p>
+            <p class="text-base font-medium">$1200</p>
+            <button class="bg-slate-600 rounded-md font-medium px-4 py-2">Buy now</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-md text-black space-y-6 w-fit">
+          <img src="https://images.unsplash.com/photo-1581508473167-1c80505e5e8b?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-[20rem] object-contain rounded-t-md">
+          <div class="px-4 pb-5 space-y-2">
+            <p class="text-lg font-semibold">Samsung Galaxy S20 Ultra</p>
+            <p class="text-base font-medium">$1200</p>
+            <button class="bg-slate-600 rounded-md font-medium px-4 py-2">Buy now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1a1919;
+  height: 100vh;
+}
+.container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #292828;
+  padding: 2rem;
+  border-radius: 3px;
+}
+.desc-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img{
+  border-radius: 50%;
+  background: gainsboro;
+}
+.name{
+  font-size: xx-large;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+.location{
+  color: #81811c;
+  margin: 0;
+  text-align: center;
+}
+.more-desc{
+  text-align: center;
+  color: white;
+  font-size: small;
+}
+.site{
+  padding: 0.5rem;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  background: #464444de;
+}
+/* media query */
+/* iphone 12 */
+/* @media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(26, 25, 25);
+  }
+  .container {
+    padding: 2rem;
+  }
+  .card {
+    background-color: rgb(41, 40, 40);
+    padding: 1rem;
+    border-radius: 3px;
+  }
+  .desc-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img{
+    border-radius: 50%;
+    background: gainsboro;
+  }
+  .name{
+    font-size: xx-large;
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+  .location{
+    color: rgb(129, 129, 28);
+    margin: 0;
+    text-align: center;
+  }
+  .more-desc{
+    text-align: center;
+    color: white;
+    font-size: small;
+  }
+  .site{
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(70, 68, 68, 0.87);
+  }
+} */
